@@ -1,8 +1,11 @@
 {
-  "name": "mcp-demo",
+  "name": "@iflow-mcp/mcp-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "mcp-server": "packages/time/dist/index.js"
+  },
   "scripts": {
     "build": "pnpm run -r build",
     "format": "prettier --write .",
